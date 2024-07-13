@@ -1,0 +1,5 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ms-vscode.powershell",
+  "files.autoSave": "onFocusChange"
+}

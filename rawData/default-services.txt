@@ -1,0 +1,283 @@
++-------+----------------------------------------------------------------------------------------------------------------------------------+
+| Value |                                                           Description                                                            |
++-------+----------------------------------------------------------------------------------------------------------------------------------+
+|     0 | Boot: Loaded by kernel loader. Components of the driver stack for the boot (startup) volume must be loaded by the kernel loader. |
+|     1 | System: Loaded by I/O subsystem. Specifies that the driver is loaded at kernel initialization.                                   |
+|     2 | Automatic: Loaded by Service Control Manager. Specifies that the service is loaded or started automatically.                     |
+|     3 | Manual: The service does not start until the user starts it manually, such as by using Services or Devices in Control Panel.     |
+|     4 | Disabled: Specifies that the service should not be started.                                                                      |
++-------+----------------------------------------------------------------------------------------------------------------------------------+
+Name                                     StartType DisplayName                                                         
+----                                     --------- -----------                                                         
+AarSvc_2b29f                                Manual AarSvc_2b29f                                                        
+AJRouter                                    Manual AllJoyn Router Service                                              
+ALG                                         Manual Application Layer Gateway Service                                   
+AppIDSvc                                    Manual Application Identity                                                
+Appinfo                                     Manual Application Information                                             
+AppMgmt                                     Manual Application Management                                              
+AppReadiness                                Manual App Readiness                                                       
+AppVClient                                Disabled Microsoft App-V Client                                              
+AppXSvc                                     Manual AppX Deployment Service (AppXSVC)                                   
+AssignedAccessManagerSvc                    Manual AssignedAccessManager Service                                       
+AudioEndpointBuilder                     Automatic Windows Audio Endpoint Builder                                      
+Audiosrv                                 Automatic Windows Audio                                                       
+autotimesvc                                 Manual Cellular Time                                                       
+AxInstSV                                    Manual ActiveX Installer (AxInstSV)                                        
+BcastDVRUserService_2b29f                   Manual BcastDVRUserService_2b29f                                           
+BDESVC                                      Manual BitLocker Drive Encryption Service                                  
+BFE                                      Automatic Base Filtering Engine                                               
+BITS                                        Manual Background Intelligent Transfer Service                             
+BluetoothUserService_2b29f                  Manual BluetoothUserService_2b29f                                          
+BrokerInfrastructure                     Automatic Background Tasks Infrastructure Service                             
+BTAGService                                 Manual Bluetooth Audio Gateway Service                                     
+BthAvctpSvc                                 Manual AVCTP service                                                       
+bthserv                                     Manual Bluetooth Support Service                                           
+camsvc                                      Manual Capability Access Manager Service                                   
+CaptureService_2b29f                        Manual CaptureService_2b29f                                                
+cbdhsvc_2b29f                            Automatic cbdhsvc_2b29f                                                       
+CDPSvc                                   Automatic Connected Devices Platform Service                                  
+CDPUserSvc_2b29f                         Automatic CDPUserSvc_2b29f                                                    
+CertPropSvc                                 Manual Certificate Propagation                                             
+ClipSVC                                     Manual Client License Service (ClipSVC)                                    
+CloudBackupRestoreSvc_2b29f                 Manual CloudBackupRestoreSvc_2b29f                                         
+cloudidsvc                                  Manual Microsoft Cloud Identity Service                                    
+COMSysApp                                   Manual COM+ System Application                                             
+ConsentUxUserSvc_2b29f                      Manual ConsentUxUserSvc_2b29f                                              
+CoreMessagingRegistrar                   Automatic CoreMessaging                                                       
+CredentialEnrollmentManagerUserSvc_2b29f    Manual CredentialEnrollmentManagerUserSvc_2b29f                            
+CryptSvc                                 Automatic Cryptographic Services                                              
+CscService                                  Manual Offline Files                                                       
+DcomLaunch                               Automatic DCOM Server Process Launcher                                        
+dcsvc                                       Manual Declared Configuration(DC) service                                  
+defragsvc                                   Manual Optimize drives                                                     
+DeviceAssociationBrokerSvc_2b29f            Manual DeviceAssociationBrokerSvc_2b29f                                    
+DeviceAssociationService                    Manual Device Association Service                                          
+DeviceInstall                               Manual Device Install Service                                              
+DevicePickerUserSvc_2b29f                   Manual DevicePickerUserSvc_2b29f                                           
+DevicesFlowUserSvc_2b29f                    Manual DevicesFlowUserSvc_2b29f                                            
+DevQueryBroker                              Manual DevQuery Background Discovery Broker                                
+Dhcp                                     Automatic DHCP Client                                                         
+diagnosticshub.standardcollector.service    Manual Microsoft (R) Diagnostics Hub Standard Collector Service            
+diagsvc                                     Manual Diagnostic Execution Service                                        
+DiagTrack                                Automatic Connected User Experiences and Telemetry                            
+DialogBlockingService                     Disabled DialogBlockingService                                               
+DispBrokerDesktopSvc                     Automatic Display Policy Service                                              
+DisplayEnhancementService                   Manual Display Enhancement Service                                         
+DmEnrollmentSvc                             Manual Device Management Enrollment Service                                
+dmwappushservice                            Manual Device Management Wireless Application Protocol (WAP) Push messag...
+Dnscache                                 Automatic DNS Client                                                          
+DoSvc                                    Automatic Delivery Optimization                                               
+dot3svc                                     Manual Wired AutoConfig                                                    
+DPS                                      Automatic Diagnostic Policy Service                                           
+DsmSvc                                      Manual Device Setup Manager                                                
+DsSvc                                       Manual Data Sharing Service                                                
+DusmSvc                                  Automatic Data Usage                                                          
+EapHost                                     Manual Extensible Authentication Protocol                                  
+edgeupdate                               Automatic Microsoft Edge Update Service (edgeupdate)                          
+edgeupdatem                                 Manual Microsoft Edge Update Service (edgeupdatem)                         
+EFS                                         Manual Encrypting File System (EFS)                                        
+embeddedmode                                Manual Embedded Mode                                                       
+EntAppSvc                                   Manual Enterprise App Management Service                                   
+EventLog                                 Automatic Windows Event Log                                                   
+EventSystem                              Automatic COM+ Event System                                                   
+fdPHost                                     Manual Function Discovery Provider Host                                    
+FDResPub                                    Manual Function Discovery Resource Publication                             
+fhsvc                                       Manual File History Service                                                
+FontCache                                Automatic Windows Font Cache Service                                          
+FrameServer                                 Manual Windows Camera Frame Server                                         
+FrameServerMonitor                          Manual Windows Camera Frame Server Monitor                                 
+GameInputSvc                                Manual GameInput Service                                                   
+gpsvc                                    Automatic Group Policy Client                                                 
+GraphicsPerfSvc                             Manual GraphicsPerfSvc                                                     
+hidserv                                     Manual Human Interface Device Service                                      
+HvHost                                      Manual HV Host Service                                                     
+icssvc                                      Manual Windows Mobile Hotspot Service                                      
+IKEEXT                                      Manual IKE and AuthIP IPsec Keying Modules                                 
+InstallService                              Manual Microsoft Store Install Service                                     
+InventorySvc                                Manual Inventory and Compatibility Appraisal service                       
+iphlpsvc                                 Automatic IP Helper                                                           
+IpxlatCfgSvc                                Manual IP Translation Configuration Service                                
+KeyIso                                      Manual CNG Key Isolation                                                   
+KtmRm                                       Manual KtmRm for Distributed Transaction Coordinator                       
+LanmanServer                             Automatic Server                                                              
+LanmanWorkstation                        Automatic Workstation                                                         
+lfsvc                                       Manual Geolocation Service                                                 
+LicenseManager                              Manual Windows License Manager Service                                     
+lltdsvc                                     Manual Link-Layer Topology Discovery Mapper                                
+lmhosts                                     Manual TCP/IP NetBIOS Helper                                               
+LSM                                      Automatic Local Session Manager                                               
+LxpSvc                                      Manual Language Experience Service                                         
+MapsBroker                               Automatic Downloaded Maps Manager                                             
+McpManagementService                        Manual McpManagementService                                                
+MDCoreSvc                                Automatic Microsoft Defender Core Service                                     
+MessagingService_2b29f                      Manual MessagingService_2b29f                                              
+MicrosoftEdgeElevationService               Manual Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)    
+MixedRealityOpenXRSvc                       Manual Windows Mixed Reality OpenXR Service                                
+mpssvc                                   Automatic Windows Defender Firewall                                           
+MSDTC                                       Manual Distributed Transaction Coordinator                                 
+MSiSCSI                                     Manual Microsoft iSCSI Initiator Service                                   
+msiserver                                   Manual Windows Installer                                                   
+MsKeyboardFilter                          Disabled Microsoft Keyboard Filter                                           
+NaturalAuthentication                       Manual Natural Authentication                                              
+NcaSvc                                      Manual Network Connectivity Assistant                                      
+NcbService                                  Manual Network Connection Broker                                           
+NcdAutoSetup                                Manual Network Connected Devices Auto-Setup                                
+Netlogon                                    Manual Netlogon                                                            
+Netman                                      Manual Network Connections                                                 
+netprofm                                    Manual Network List Service                                                
+NetSetupSvc                                 Manual Network Setup Service                                               
+NetTcpPortSharing                         Disabled Net.Tcp Port Sharing Service                                        
+NgcCtnrSvc                                  Manual Microsoft Passport Container                                        
+NgcSvc                                      Manual Microsoft Passport                                                  
+NlaSvc                                      Manual Network Location Awareness                                          
+NPSMSvc_2b29f                               Manual NPSMSvc_2b29f                                                       
+nsi                                      Automatic Network Store Interface Service                                     
+OneSyncSvc_2b29f                         Automatic OneSyncSvc_2b29f                                                    
+p2pimsvc                                    Manual Peer Networking Identity Manager                                    
+p2psvc                                      Manual Peer Networking Grouping                                            
+P9RdrService_2b29f                          Manual P9RdrService_2b29f                                                  
+PcaSvc                                   Automatic Program Compatibility Assistant Service                             
+PeerDistSvc                                 Manual BranchCache                                                         
+PenService_2b29f                            Manual PenService_2b29f                                                    
+perceptionsimulation                        Manual Windows Perception Simulation Service                               
+PerfHost                                    Manual Performance Counter DLL Host                                        
+PhoneSvc                                    Manual Phone Service                                                       
+PimIndexMaintenanceSvc_2b29f                Manual PimIndexMaintenanceSvc_2b29f                                        
+pla                                         Manual Performance Logs & Alerts                                           
+PlugPlay                                    Manual Plug and Play                                                       
+PNRPAutoReg                                 Manual PNRP Machine Name Publication Service                               
+PNRPsvc                                     Manual Peer Name Resolution Protocol                                       
+PolicyAgent                                 Manual IPsec Policy Agent                                                  
+Power                                    Automatic Power                                                               
+PrintNotify                                 Manual Printer Extensions and Notifications                                
+PrintWorkflowUserSvc_2b29f                  Manual PrintWorkflowUserSvc_2b29f                                          
+ProfSvc                                  Automatic User Profile Service                                                
+PushToInstall                               Manual Windows PushToInstall Service                                       
+QWAVE                                       Manual Quality Windows Audio Video Experience                              
+RasAuto                                     Manual Remote Access Auto Connection Manager                               
+RasMan                                      Manual Remote Access Connection Manager                                    
+RemoteAccess                              Disabled Routing and Remote Access                                           
+RemoteRegistry                            Disabled Remote Registry                                                     
+RetailDemo                                  Manual Retail Demo Service                                                 
+RmSvc                                       Manual Radio Management Service                                            
+RpcEptMapper                             Automatic RPC Endpoint Mapper                                                 
+RpcLocator                                  Manual Remote Procedure Call (RPC) Locator                                 
+RpcSs                                    Automatic Remote Procedure Call (RPC)                                         
+SamSs                                    Automatic Security Accounts Manager                                           
+SCardSvr                                    Manual Smart Card                                                          
+ScDeviceEnum                                Manual Smart Card Device Enumeration Service                               
+Schedule                                 Automatic Task Scheduler                                                      
+SCPolicySvc                                 Manual Smart Card Removal Policy                                           
+SDRSVC                                      Manual Windows Backup                                                      
+seclogon                                    Manual Secondary Logon                                                     
+SecurityHealthService                       Manual Windows Security Service                                            
+SEMgrSvc                                    Manual Payments and NFC/SE Manager                                         
+SENS                                     Automatic System Event Notification Service                                   
+Sense                                       Manual Windows Defender Advanced Threat Protection Service                 
+SensorDataService                           Manual Sensor Data Service                                                 
+SensorService                               Manual Sensor Service                                                      
+SensrSvc                                    Manual Sensor Monitoring Service                                           
+SessionEnv                                  Manual Remote Desktop Configuration                                        
+SgrmBroker                                Disabled System Guard Runtime Monitor Broker                                 
+SharedAccess                                Manual Internet Connection Sharing (ICS)                                   
+SharedRealitySvc                            Manual Spatial Data Service                                                
+ShellHWDetection                         Automatic Shell Hardware Detection                                            
+shpamsvc                                  Disabled Shared PC Account Manager                                           
+smphost                                     Manual Microsoft Storage Spaces SMP                                        
+SmsRouter                                   Manual Microsoft Windows SMS Router Service.                               
+SNMPTrap                                    Manual SNMP Trap                                                           
+spectrum                                    Manual Windows Perception Service                                          
+Spooler                                  Automatic Print Spooler                                                       
+sppsvc                                   Automatic Software Protection                                                 
+SSDPSRV                                     Manual SSDP Discovery                                                      
+ssh-agent                                 Disabled OpenSSH Authentication Agent                                        
+SstpSvc                                     Manual Secure Socket Tunneling Protocol Service                            
+StateRepository                          Automatic State Repository Service                                            
+StiSvc                                      Manual Windows Image Acquisition (WIA)                                     
+StorSvc                                  Automatic Storage Service                                                     
+svsvc                                       Manual Spot Verifier                                                       
+swprv                                       Manual Microsoft Software Shadow Copy Provider                             
+SysMain                                  Automatic SysMain                                                             
+SystemEventsBroker                       Automatic System Events Broker                                                
+TapiSrv                                     Manual Telephony                                                           
+TermService                                 Manual Remote Desktop Services                                             
+TextInputManagementService               Automatic Text Input Management Service                                       
+Themes                                   Automatic Themes                                                              
+TieringEngineService                        Manual Storage Tiers Management                                            
+TimeBrokerSvc                               Manual Time Broker                                                         
+TokenBroker                                 Manual Web Account Manager                                                 
+TrkWks                                   Automatic Distributed Link Tracking Client                                    
+TroubleshootingSvc                          Manual Recommended Troubleshooting Service                                 
+TrustedInstaller                            Manual Windows Modules Installer                                           
+tzautoupdate                              Disabled Auto Time Zone Updater                                              
+UdkUserSvc_2b29f                            Manual UdkUserSvc_2b29f                                                    
+UevAgentService                           Disabled User Experience Virtualization Service                              
+uhssvc                                    Disabled Microsoft Update Health Service                                     
+UmRdpService                                Manual Remote Desktop Services UserMode Port Redirector                    
+UnistoreSvc_2b29f                           Manual UnistoreSvc_2b29f                                                   
+upnphost                                    Manual UPnP Device Host                                                    
+UserDataSvc_2b29f                           Manual UserDataSvc_2b29f                                                   
+UserManager                              Automatic User Manager                                                        
+UsoSvc                                   Automatic Update Orchestrator Service                                         
+VacSvc                                      Manual Volumetric Audio Compositor Service                                 
+VaultSvc                                    Manual Credential Manager                                                  
+vds                                         Manual Virtual Disk                                                        
+VGAuthService                            Automatic VMware Alias Manager and Ticket Service                             
+vm3dservice                              Automatic VMware SVGA Helper Service                                          
+vmicguestinterface                          Manual Hyper-V Guest Service Interface                                     
+vmicheartbeat                               Manual Hyper-V Heartbeat Service                                           
+vmickvpexchange                             Manual Hyper-V Data Exchange Service                                       
+vmicrdv                                     Manual Hyper-V Remote Desktop Virtualization Service                       
+vmicshutdown                                Manual Hyper-V Guest Shutdown Service                                      
+vmictimesync                                Manual Hyper-V Time Synchronization Service                                
+vmicvmsession                               Manual Hyper-V PowerShell Direct Service                                   
+vmicvss                                     Manual Hyper-V Volume Shadow Copy Requestor                                
+VMTools                                  Automatic VMware Tools                                                        
+vmvss                                       Manual VMware Snapshot Provider                                            
+VSS                                         Manual Volume Shadow Copy                                                  
+W32Time                                     Manual Windows Time                                                        
+WaaSMedicSvc                                Manual WaaSMedicSvc                                                        
+WalletService                               Manual WalletService                                                       
+WarpJITSvc                                  Manual Warp JIT Service                                                    
+wbengine                                    Manual Block Level Backup Engine Service                                   
+WbioSrvc                                    Manual Windows Biometric Service                                           
+Wcmsvc                                   Automatic Windows Connection Manager                                          
+wcncsvc                                     Manual Windows Connect Now - Config Registrar                              
+WdiServiceHost                              Manual Diagnostic Service Host                                             
+WdiSystemHost                               Manual Diagnostic System Host                                              
+WdNisSvc                                    Manual Microsoft Defender Antivirus Network Inspection Service             
+WebClient                                   Manual WebClient                                                           
+webthreatdefsvc                             Manual Web Threat Defense Service                                          
+webthreatdefusersvc_2b29f                Automatic webthreatdefusersvc_2b29f                                           
+Wecsvc                                      Manual Windows Event Collector                                             
+WEPHOSTSVC                                  Manual Windows Encryption Provider Host Service                            
+wercplsupport                               Manual Problem Reports Control Panel Support                               
+WerSvc                                      Manual Windows Error Reporting Service                                     
+WFDSConMgrSvc                               Manual Wi-Fi Direct Services Connection Manager Service                    
+WiaRpc                                      Manual Still Image Acquisition Events                                      
+WinDefend                                Automatic Microsoft Defender Antivirus Service                                
+WinHttpAutoProxySvc                         Manual WinHTTP Web Proxy Auto-Discovery Service                            
+Winmgmt                                  Automatic Windows Management Instrumentation                                  
+WinRM                                       Manual Windows Remote Management (WS-Management)                           
+wisvc                                       Manual Windows Insider Service                                             
+WlanSvc                                     Manual WLAN AutoConfig                                                     
+wlidsvc                                     Manual Microsoft Account Sign-in Assistant                                 
+wlpasvc                                     Manual Local Profile Assistant Service                                     
+WManSvc                                     Manual Windows Management Service                                          
+wmiApSrv                                    Manual WMI Performance Adapter                                             
+WMPNetworkSvc                               Manual Windows Media Player Network Sharing Service                        
+workfolderssvc                              Manual Work Folders                                                        
+WpcMonSvc                                   Manual Parental Controls                                                   
+WPDBusEnum                                  Manual Portable Device Enumerator Service                                  
+WpnService                               Automatic Windows Push Notifications System Service                           
+WpnUserService_2b29f                     Automatic WpnUserService_2b29f                                                
+wscsvc                                   Automatic Security Center                                                     
+WSearch                                  Automatic Windows Search                                                      
+wuauserv                                    Manual Windows Update                                                      
+WwanSvc                                     Manual WWAN AutoConfig                                                     
+XblAuthManager                              Manual Xbox Live Auth Manager                                              
+XblGameSave                                 Manual Xbox Live Game Save                                                 
+XboxGipSvc                                  Manual Xbox Accessory Management Service                                   
+XboxNetApiSvc                               Manual Xbox Live Networking Service                                        
+
+

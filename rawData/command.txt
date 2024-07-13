@@ -1,0 +1,1 @@
+Get-Service | select -property name,starttype,displayname > services.txt
