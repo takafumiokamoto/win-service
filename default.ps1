@@ -1,3 +1,4 @@
+# 2024/07/13時点
 [Diagnostics.CodeAnalysis.SuppressMessageAttribute('UseDeclaredVarsMoreThanAssignments')]
 $automatic = @(
     "AudioEndpointBuilder", #Windows Audio Endpoint Builder
