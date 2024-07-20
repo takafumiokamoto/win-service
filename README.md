@@ -11,3 +11,4 @@ cppで実装できたらいいな
 - <https://learn.microsoft.com/en-us/troubleshoot/windows-server/performance/server-service-configuration-tuning>
 - <https://learn.microsoft.com/en-us/windows-server/security/windows-services/security-guidelines-for-disabling-system-services-in-windows-server>
 - <https://learn.microsoft.com/en-us/windows/iot/iot-enterprise/optimize/services>
+- <https://learn.microsoft.com/en-us/windows/application-management/per-user-services-in-windows>
