@@ -1,5 +1,25 @@
 {
+  "editor.minimap.enabled": false,
   "editor.formatOnSave": true,
-  "editor.defaultFormatter": "ms-vscode.powershell",
-  "files.autoSave": "onFocusChange"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "onFocusChange",
+  "vim.handleKeys": {
+    "<C-d>": true,
+    "<C-c>": false,
+    "<C-v>": false,
+    "<C-x>": false,
+    "<C-f>": false,
+    "<C-a>": false,
+    "<C-p>": false
+  },
+  "vim.useSystemClipboard": true,
+  "[markdown]": {
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  },
+  "[powershell]": {
+    "editor.defaultFormatter": "ms-vscode.powershell"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  }
 }
